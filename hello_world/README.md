@@ -23,12 +23,14 @@ main.c → Preprocessor → Compiler → Assembler → Linker → a.out
 | Option | Stops after | Syntax |
 |---|---|---|
 | `-E` | Preprocessor | `gcc -E file.c -o output` |
+| `-c` | Assembler (no linking) | `gcc -c file.c` → `file.o` |
 
 ## 📄 Files
 
 | File | Description | How it works |
 |---|---|---|
 | `0-preprocessor` | Runs a C file through the **preprocessor** only | `gcc -E $CFILE -o c` — `-E` stops after preprocessing, `-o c` saves the result in `c` |
+| `1-compiler` | Compiles a C file **without linking** | `gcc -c $CFILE` — stops after assembly and creates `name.o` automatically |
 
 ## ⚙️ Requirements
 
