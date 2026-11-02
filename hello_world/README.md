@@ -27,6 +27,14 @@ main.c → Preprocessor → Compiler → Assembler → Linker → a.out
 | `-S` | Compiler (assembly code) | `gcc -S file.c` → `file.s` |
 | `-o name` | — (sets the output name) | `gcc file.c -o name` |
 
+
+## 🖨️ Printing Functions
+
+| Function | Prints | Adds `\n`? | Header |
+|---|---|---|---|
+| `puts(s)` | a string | ✅ yes | `<stdio.h>` |
+
+
 ## 📄 Files
 
 | File | Description | How it works |
@@ -35,6 +43,7 @@ main.c → Preprocessor → Compiler → Assembler → Linker → a.out
 | `1-compiler` | Compiles a C file **without linking** | `gcc -c $CFILE` — stops after assembly and creates `name.o` automatically |
 | `2-assembler` | Generates the **assembly code** of a C file | `gcc -S $CFILE` — stops after compilation and creates `name.s` automatically |
 | `3-name` | Compiles a C file into an executable named **`cisfun`** | `gcc $CFILE -o cisfun` — runs all 4 stages; `-o` replaces the default name `a.out` |
+| `4-puts.c` | Prints a sentence using **`puts`** | `puts()` prints the string + adds `\n` automatically; `\"` prints a literal `"` |
 
 ## ⚙️ Requirements
 
