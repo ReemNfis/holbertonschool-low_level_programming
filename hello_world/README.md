@@ -32,7 +32,8 @@ main.c → Preprocessor → Compiler → Assembler → Linker → a.out
 
 | Function | Prints | Adds `\n`? | Header |
 |---|---|---|---|
-| `puts(s)` | a string | ✅ yes | `<stdio.h>` |
+| `puts(s)` | a string |  yes | `<stdio.h>` |
+| `printf(format, ...)` | formatted text |  no — add `\n` | `<stdio.h>` |
 
 
 ## 📄 Files
@@ -44,6 +45,7 @@ main.c → Preprocessor → Compiler → Assembler → Linker → a.out
 | `2-assembler` | Generates the **assembly code** of a C file | `gcc -S $CFILE` — stops after compilation and creates `name.s` automatically |
 | `3-name` | Compiles a C file into an executable named **`cisfun`** | `gcc $CFILE -o cisfun` — runs all 4 stages; `-o` replaces the default name `a.out` |
 | `4-puts.c` | Prints a sentence using **`puts`** | `puts()` prints the string + adds `\n` automatically; `\"` prints a literal `"` |
+| `5-printf.c` | Prints a sentence using **`printf`** | `printf()` does **not** add a new line, so the string ends with `\n` |
 
 ## ⚙️ Requirements
 
