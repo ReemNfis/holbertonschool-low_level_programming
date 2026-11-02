@@ -18,10 +18,17 @@ and how to print text to the screen.
 main.c → Preprocessor → Compiler → Assembler → Linker → a.out
 ```
 
+## 🛠️ gcc Options
+
+| Option | Stops after | Syntax |
+|---|---|---|
+| `-E` | Preprocessor | `gcc -E file.c -o output` |
+
 ## 📄 Files
 
 | File | Description | How it works |
 |---|---|---|
+| `0-preprocessor` | Runs a C file through the **preprocessor** only | `gcc -E $CFILE -o c` — `-E` stops after preprocessing, `-o c` saves the result in `c` |
 
 ## ⚙️ Requirements
 
