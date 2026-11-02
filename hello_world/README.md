@@ -25,6 +25,7 @@ main.c → Preprocessor → Compiler → Assembler → Linker → a.out
 | `-E` | Preprocessor | `gcc -E file.c -o output` |
 | `-c` | Assembler (no linking) | `gcc -c file.c` → `file.o` |
 | `-S` | Compiler (assembly code) | `gcc -S file.c` → `file.s` |
+| `-o name` | — (sets the output name) | `gcc file.c -o name` |
 
 ## 📄 Files
 
@@ -33,6 +34,7 @@ main.c → Preprocessor → Compiler → Assembler → Linker → a.out
 | `0-preprocessor` | Runs a C file through the **preprocessor** only | `gcc -E $CFILE -o c` — `-E` stops after preprocessing, `-o c` saves the result in `c` |
 | `1-compiler` | Compiles a C file **without linking** | `gcc -c $CFILE` — stops after assembly and creates `name.o` automatically |
 | `2-assembler` | Generates the **assembly code** of a C file | `gcc -S $CFILE` — stops after compilation and creates `name.s` automatically |
+| `3-name` | Compiles a C file into an executable named **`cisfun`** | `gcc $CFILE -o cisfun` — runs all 4 stages; `-o` replaces the default name `a.out` |
 
 ## ⚙️ Requirements
 
