@@ -26,6 +26,7 @@ Writing **functions**, **nested loops**, and **header files** in C, printing wit
 | [`6-abs.c`](./6-abs.c) | `_abs`: computes the absolute value of an integer | If `n` is negative, returns `-n` (unary minus flips the sign); otherwise returns `n` |
 | [`7-print_last_digit.c`](./7-print_last_digit.c) | `print_last_digit`: prints and returns the last digit of a number | Takes `n % 10` first, then makes that digit positive (safe even for `INT_MIN`), prints it with `'0' + digit` and returns it |
 | [`8-24_hours.c`](./8-24_hours.c) | `jack_bauer`: prints every minute of the day, from `00:00` to `23:59` | Nested loops: hours 0–23 outside, minutes 0–59 inside; each number is split into tens (`/ 10`) and ones (`% 10`), printed with `'0' + digit` (1440 lines) |
+| [`9-times_table.c`](./9-times_table.c) | `times_table`: prints the 9 times table, starting with 0 | Nested loops over rows and columns 0–9; each product after the first column is preceded by `, ` plus an extra space if it has one digit, so columns line up |
 
 ## ⚙️ Requirements
 
