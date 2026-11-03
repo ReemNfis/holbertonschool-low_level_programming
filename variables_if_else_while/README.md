@@ -25,6 +25,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 |---|---|
 | `if` / `else if` / `else` | `if (cond) ... else if (cond2) ... else ...` |
 | Print an `int` | `printf("%d\n", n);` |
+| `1-last_digit.c` | Prints the **last digit** of a random number and compares it to 5 and 0 | `n % 10` gives the last digit (negative for negative `n`), then `if` / `else if` / `else` picks the message |
 
 ## ⚙️ Requirements
 
