@@ -22,6 +22,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 | `2-print_alphabet.c` | Prints the **lowercase alphabet**, followed by a new line | A `char` starts at `'a'`; a `while` loop calls `putchar` and increments it until `'z'` (letters are consecutive ASCII codes), then one `putchar('\n')` |
 | `3-print_alphabets.c` | Prints the alphabet in **lowercase**, then in **uppercase**, followed by a new line | Two consecutive `while` loops reuse one `char`: `'a'`→`'z'`, then reset to `'A'`→`'Z'`; one `putchar('\n')` at the end |
 | `4-print_alphabt.c` | Prints the lowercase alphabet **except `q` and `e`**, followed by a new line | A `while` loop from `'a'` to `'z'`; `if (letter == 'e' \|\| letter == 'q')` skips them with `continue` |
+| `5-print_numbers.c` | Prints all **single digit numbers** of base 10 from `0`, followed by a new line | An `int` counter goes from `0` to `9`; `putchar(number + '0')` turns each digit into its ASCII character |
 
 
 ## 🧩 Syntax
@@ -33,6 +34,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 | Last digit of a number | `n % 10` |
 | `while` loop | `init; while (condition) { body; update; }` |
 | Print one character | `putchar(c);` |
+| Digit → character / character → digit | `n + '0'` · `c - '0'` |
 
 ## ⚙️ Requirements
 
