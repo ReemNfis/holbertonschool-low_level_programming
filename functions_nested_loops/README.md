@@ -24,6 +24,8 @@ Writing **functions**, **nested loops**, and **header files** in C, printing wit
 | [`4-isalpha.c`](./4-isalpha.c) | `_isalpha`: checks for an alphabetic character | Returns `1` if `c` is in `'a'`–`'z'` or `'A'`–`'Z'` (two ranges joined with `\|\|`), `0` otherwise |
 | [`5-sign.c`](./5-sign.c) | `print_sign`: prints the sign of a number | `if` / `else if` / `else`: prints `+` and returns `1` if positive, `0` and returns `0` if zero, `-` and returns `-1` if negative |
 | [`6-abs.c`](./6-abs.c) | `_abs`: computes the absolute value of an integer | If `n` is negative, returns `-n` (unary minus flips the sign); otherwise returns `n` |
+| [`7-print_last_digit.c`](./7-print_last_digit.c) | `print_last_digit`: prints and returns the last digit of a number | Takes `n % 10` first, then makes that digit positive (safe even for `INT_MIN`), prints it with `'0' + digit` and returns it |
+| [`8-24_hours.c`](./8-24_hours.c) | `jack_bauer`: prints every minute of the day, from `00:00` to `23:59` | Nested loops: hours 0–23 outside, minutes 0–59 inside; each number is split into tens (`/ 10`) and ones (`% 10`), printed with `'0' + digit` (1440 lines) |
 
 ## ⚙️ Requirements
 
