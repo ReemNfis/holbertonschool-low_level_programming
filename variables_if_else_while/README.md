@@ -20,6 +20,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 | `0-positive_or_negative.c` | Prints whether a random number is **positive**, **negative**, or **zero** | `if` / `else if` / `else` compares `n` with `0`, then `printf("%d is ...\n", n)` prints the number and its sign |
 | `1-last_digit.c` | Prints the **last digit** of a random number and compares it to 5 and 0 | `n % 10` gives the last digit (negative for negative `n`), then `if` / `else if` / `else` picks the message |
 | `2-print_alphabet.c` | Prints the **lowercase alphabet**, followed by a new line | A `char` starts at `'a'`; a `while` loop calls `putchar` and increments it until `'z'` (letters are consecutive ASCII codes), then one `putchar('\n')` |
+| `3-print_alphabets.c` | Prints the alphabet in **lowercase**, then in **uppercase**, followed by a new line | Two consecutive `while` loops reuse one `char`: `'a'`→`'z'`, then reset to `'A'`→`'Z'`; one `putchar('\n')` at the end |
 
 
 ## 🧩 Syntax
