@@ -17,6 +17,14 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 
 | File | Description | How it works |
 |---|---|---|
+| `0-positive_or_negative.c` | Prints whether a random number is **positive**, **negative**, or **zero** | `if` / `else if` / `else` compares `n` with `0`, then `printf("%d is ...\n", n)` prints the number and its sign |
+
+## 🧩 Syntax
+
+| Concept | Syntax |
+|---|---|
+| `if` / `else if` / `else` | `if (cond) ... else if (cond2) ... else ...` |
+| Print an `int` | `printf("%d\n", n);` |
 
 ## ⚙️ Requirements
 
