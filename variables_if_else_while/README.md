@@ -21,6 +21,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 | `1-last_digit.c` | Prints the **last digit** of a random number and compares it to 5 and 0 | `n % 10` gives the last digit (negative for negative `n`), then `if` / `else if` / `else` picks the message |
 | `2-print_alphabet.c` | Prints the **lowercase alphabet**, followed by a new line | A `char` starts at `'a'`; a `while` loop calls `putchar` and increments it until `'z'` (letters are consecutive ASCII codes), then one `putchar('\n')` |
 | `3-print_alphabets.c` | Prints the alphabet in **lowercase**, then in **uppercase**, followed by a new line | Two consecutive `while` loops reuse one `char`: `'a'`→`'z'`, then reset to `'A'`→`'Z'`; one `putchar('\n')` at the end |
+| `4-print_alphabt.c` | Prints the lowercase alphabet **except `q` and `e`**, followed by a new line | A `while` loop from `'a'` to `'z'`; `if (letter == 'e' \|\| letter == 'q')` skips them with `continue` |
 
 
 ## 🧩 Syntax
