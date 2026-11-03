@@ -26,6 +26,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 | `6-print_numberz.c` | Prints all single digit numbers from `0` with `putchar` only and **no `char` variables** | An `int` counter `0`→`9`; `putchar(number + '0')` converts each digit to its ASCII character |
 | `7-print_tebahpla.c` | Prints the lowercase alphabet **in reverse**, followed by a new line | A `char` starts at `'z'`; the loop runs while `letter >= 'a'` and decrements with `letter--` |
 | `8-print_base16.c` | Prints all the numbers of **base 16** in lowercase, followed by a new line | Two loops over two separate ASCII ranges: `'0'`→`'9'`, then `'a'`→`'f'`; one `putchar('\n')` at the end |
+| `9-print_comb.c` | Prints all single-digit numbers separated by `, ` in ascending order | An `int` counter `0`→`9`; `putchar(number + '0')` every time, and `', '` only `if (number != 9)` |
 
 
 ## 🧩 Syntax
@@ -40,6 +41,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 | Digit → character / character → digit | `n + '0'` · `c - '0'` |
 | Count down | `x = end; while (x >= start) { ...; x--; }` |
 | Hexadecimal literal / print as hex | `0x1f` · `printf("%x", n);` |
+| Separator, except after the last item | `print(item); if (item != last) print(sep);` |
 
 ## ⚙️ Requirements
 
