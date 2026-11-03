@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the last digit of a random number and compares it to 5 and 0
+ * main - prints the last digit of a random number and compares it to 5 and 0 and 6
  *
  * Return: Always 0 (Success)
  */

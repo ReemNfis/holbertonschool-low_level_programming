@@ -28,6 +28,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 |---|---|
 | `if` / `else if` / `else` | `if (cond) ... else if (cond2) ... else ...` |
 | Print an `int` | `printf("%d\n", n);` |
+| Last digit of a number | `n % 10` |
 | `while` loop | `init; while (condition) { body; update; }` |
 | Print one character | `putchar(c);` |
 
