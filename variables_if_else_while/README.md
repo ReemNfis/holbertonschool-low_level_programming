@@ -25,6 +25,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 | `5-print_numbers.c` | Prints all **single digit numbers** of base 10 from `0`, followed by a new line | An `int` counter goes from `0` to `9`; `putchar(number + '0')` turns each digit into its ASCII character |
 | `6-print_numberz.c` | Prints all single digit numbers from `0` with `putchar` only and **no `char` variables** | An `int` counter `0`→`9`; `putchar(number + '0')` converts each digit to its ASCII character |
 | `7-print_tebahpla.c` | Prints the lowercase alphabet **in reverse**, followed by a new line | A `char` starts at `'z'`; the loop runs while `letter >= 'a'` and decrements with `letter--` |
+| `8-print_base16.c` | Prints all the numbers of **base 16** in lowercase, followed by a new line | Two loops over two separate ASCII ranges: `'0'`→`'9'`, then `'a'`→`'f'`; one `putchar('\n')` at the end |
 
 
 ## 🧩 Syntax
@@ -38,6 +39,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 | Print one character | `putchar(c);` |
 | Digit → character / character → digit | `n + '0'` · `c - '0'` |
 | Count down | `x = end; while (x >= start) { ...; x--; }` |
+| Hexadecimal literal / print as hex | `0x1f` · `printf("%x", n);` |
 
 ## ⚙️ Requirements
 
