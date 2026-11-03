@@ -21,6 +21,7 @@ Writing **functions**, **nested loops**, and **header files** in C, printing wit
 | [`1-alphabet.c`](./1-alphabet.c) | `print_alphabet`: prints the lowercase alphabet, then a new line | A `char` goes from `'a'` to `'z'` in a `while` loop; `_putchar` is used only twice: one inside the loop, one for `'\n'` |
 | [`2-print_alphabet_x10.c`](./2-print_alphabet_x10.c) | `print_alphabet_x10`: prints the lowercase alphabet 10 times | Nested loops: the outer `int` counter runs 10 times; the inner `char` loop is reset to `'a'` each time and prints `'a'` to `'z'`, then `'\n'` |
 | [`3-islower.c`](./3-islower.c) | `_islower`: checks for a lowercase character | Returns `1` if `c` is between `'a'` and `'z'` (ASCII 97 to 122), `0` otherwise |
+| [`4-isalpha.c`](./4-isalpha.c) | `_isalpha`: checks for an alphabetic character | Returns `1` if `c` is in `'a'`–`'z'` or `'A'`–`'Z'` (two ranges joined with `\|\|`), `0` otherwise |
 
 ## ⚙️ Requirements
 
