@@ -23,6 +23,7 @@ Writing **functions**, **nested loops**, and **header files** in C, printing wit
 | [`3-islower.c`](./3-islower.c) | `_islower`: checks for a lowercase character | Returns `1` if `c` is between `'a'` and `'z'` (ASCII 97 to 122), `0` otherwise |
 | [`4-isalpha.c`](./4-isalpha.c) | `_isalpha`: checks for an alphabetic character | Returns `1` if `c` is in `'a'`–`'z'` or `'A'`–`'Z'` (two ranges joined with `\|\|`), `0` otherwise |
 | [`5-sign.c`](./5-sign.c) | `print_sign`: prints the sign of a number | `if` / `else if` / `else`: prints `+` and returns `1` if positive, `0` and returns `0` if zero, `-` and returns `-1` if negative |
+| [`6-abs.c`](./6-abs.c) | `_abs`: computes the absolute value of an integer | If `n` is negative, returns `-n` (unary minus flips the sign); otherwise returns `n` |
 
 ## ⚙️ Requirements
 
