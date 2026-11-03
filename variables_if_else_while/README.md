@@ -23,6 +23,7 @@ Working with **variables**, **operators**, **conditions**, and **loops** in C.
 | `3-print_alphabets.c` | Prints the alphabet in **lowercase**, then in **uppercase**, followed by a new line | Two consecutive `while` loops reuse one `char`: `'a'`→`'z'`, then reset to `'A'`→`'Z'`; one `putchar('\n')` at the end |
 | `4-print_alphabt.c` | Prints the lowercase alphabet **except `q` and `e`**, followed by a new line | A `while` loop from `'a'` to `'z'`; `if (letter == 'e' \|\| letter == 'q')` skips them with `continue` |
 | `5-print_numbers.c` | Prints all **single digit numbers** of base 10 from `0`, followed by a new line | An `int` counter goes from `0` to `9`; `putchar(number + '0')` turns each digit into its ASCII character |
+| `6-print_numberz.c` | Prints all single digit numbers from `0` with `putchar` only and **no `char` variables** | An `int` counter `0`→`9`; `putchar(number + '0')` converts each digit to its ASCII character |
 
 
 ## 🧩 Syntax
