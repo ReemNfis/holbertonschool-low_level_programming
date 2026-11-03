@@ -28,6 +28,7 @@ Writing **functions**, **nested loops**, and **header files** in C, printing wit
 | [`8-24_hours.c`](./8-24_hours.c) | `jack_bauer`: prints every minute of the day, from `00:00` to `23:59` | Nested loops: hours 0–23 outside, minutes 0–59 inside; each number is split into tens (`/ 10`) and ones (`% 10`), printed with `'0' + digit` (1440 lines) |
 | [`9-times_table.c`](./9-times_table.c) | `times_table`: prints the 9 times table, starting with 0 | Nested loops over rows and columns 0–9; each product after the first column is preceded by `, ` plus an extra space if it has one digit, so columns line up |
 | [`10-add.c`](./10-add.c) | `add`: adds two integers and returns the result | Returns `a + b` |
+| [`11-print_to_98.c`](./11-print_to_98.c) | `print_to_98`: prints all integers from `n` to `98`, then a new line | Counts up if `n <= 98`, down otherwise; prints `", "` after every number except `98`, using `printf` (standard library allowed in this task) |
 
 ## ⚙️ Requirements
 
