@@ -22,6 +22,7 @@ More practice writing **functions** and **nested loops** in C, printing with `_p
 | [`2-mul.c`](./2-mul.c) | `mul`: multiplies two integers | Returns `a * b` directly; negative numbers work without any extra check |
 | [`3-print_numbers.c`](./3-print_numbers.c) | `print_numbers`: prints the numbers `0` to `9`, then a new line | A `char` goes from `'0'` to `'9'` in a `while` loop; `_putchar` is used only twice: one inside the loop, one for `'\n'` |
 | [`4-print_most_numbers.c`](./4-print_most_numbers.c) | `print_most_numbers`: prints the numbers `0` to `9` except `2` and `4`, then a new line | Same loop as `print_numbers`; an `if` with `!=` and `&&` skips `'2'` and `'4'` before `_putchar`, while `a++` always runs |
+| [`5-more_numbers.c`](./5-more_numbers.c) | `more_numbers`: prints 10 times the numbers `0` to `14`, then a new line | Nested loops: outer runs 10 times, inner goes 0–14; the tens digit (`a / 10`) is printed only if `a > 9`, the ones digit (`a % 10`) always, each with `+ '0'` |
 
 ## ⚙️ Requirements
 
