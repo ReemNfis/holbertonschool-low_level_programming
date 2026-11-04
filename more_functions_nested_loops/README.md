@@ -24,6 +24,7 @@ More practice writing **functions** and **nested loops** in C, printing with `_p
 | [`4-print_most_numbers.c`](./4-print_most_numbers.c) | `print_most_numbers`: prints the numbers `0` to `9` except `2` and `4`, then a new line | Same loop as `print_numbers`; an `if` with `!=` and `&&` skips `'2'` and `'4'` before `_putchar`, while `a++` always runs |
 | [`5-more_numbers.c`](./5-more_numbers.c) | `more_numbers`: prints 10 times the numbers `0` to `14`, then a new line | Nested loops: outer runs 10 times, inner goes 0–14; the tens digit (`a / 10`) is printed only if `a > 9`, the ones digit (`a % 10`) always, each with `+ '0'` |
 | [`6-print_line.c`](./6-print_line.c) | `print_line`: draws a straight line of `n` underscores, then a new line | A `while (i < n)` loop prints `_`; if `n <= 0` the loop never runs, so only `'\n'` is printed (no extra `if` needed) |
+| [`7-print_diagonal.c`](./7-print_diagonal.c) | `print_diagonal`: draws a diagonal line of `n` backslashes | Nested loops: line `i` prints `i` spaces, then `'\\'` and `'\n'`; if `n <= 0`, only `'\n'` is printed, checked before the loop |
 
 ## ⚙️ Requirements
 
