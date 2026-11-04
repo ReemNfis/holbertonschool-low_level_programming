@@ -27,6 +27,7 @@ More practice writing **functions** and **nested loops** in C, printing with `_p
 | [`7-print_diagonal.c`](./7-print_diagonal.c) | `print_diagonal`: draws a diagonal line of `n` backslashes | Nested loops: line `i` prints `i` spaces, then `'\\'` and `'\n'`; if `n <= 0`, only `'\n'` is printed, checked before the loop |
 | [`8-print_square.c`](./8-print_square.c) | `print_square`: prints a square of `#`, then a new line | Nested loops: `size` lines of `size` `#` each, every line ending with `'\n'`; if `size <= 0`, only `'\n'` is printed |
 | [`9-fizz_buzz.c`](./9-fizz_buzz.c) | Program: prints `1` to `100`, with `Fizz` for multiples of 3, `Buzz` for multiples of 5, `FizzBuzz` for both | Checks `i % 3 == 0 && i % 5 == 0` first, then `% 5`, then `% 3`; a space follows every item except `100`; uses `printf` (standard library allowed in this task) |
+| [`10-print_triangle.c`](./10-print_triangle.c) | `print_triangle`: prints a right-aligned triangle of `#`, then a new line | Nested loops: line `i` prints `size - 1 - i` spaces, then `i + 1` `#`, then `'\n'`; if `size <= 0`, only `'\n'` is printed |
 
 ## ⚙️ Requirements
 
