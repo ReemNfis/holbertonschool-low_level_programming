@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - prints a line of the specified length, The line should end with a \n
+ * print_line - draws a straight line of n underscores, then a new line
  * @n: the length of the line to print
  *
  * Return: void
@@ -15,5 +15,5 @@ void print_line(int n)
 		_putchar('_');
 		i++;
 	}
-    _putchar('\n');
+	_putchar('\n');
 }
