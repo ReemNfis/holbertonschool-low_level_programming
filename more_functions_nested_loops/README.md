@@ -20,6 +20,7 @@ More practice writing **functions** and **nested loops** in C, printing with `_p
 | [`0-isupper.c`](./0-isupper.c) | `_isupper`: checks for an uppercase character | Returns `1` if `c` is between `'A'` and `'Z'` (ASCII 65 to 90), `0` otherwise |
 | [`1-isdigit.c`](./1-isdigit.c) | `_isdigit`: checks for a digit (`0` through `9`) | Returns `1` if `c` is between `'0'` and `'9'` (ASCII 48 to 57), `0` otherwise |
 | [`2-mul.c`](./2-mul.c) | `mul`: multiplies two integers | Returns `a * b` directly; negative numbers work without any extra check |
+| [`3-print_numbers.c`](./3-print_numbers.c) | `print_numbers`: prints the numbers `0` to `9`, then a new line | A `char` goes from `'0'` to `'9'` in a `while` loop; `_putchar` is used only twice: one inside the loop, one for `'\n'` |
 
 ## ⚙️ Requirements
 
