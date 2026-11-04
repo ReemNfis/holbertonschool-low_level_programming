@@ -47,6 +47,7 @@ Finding and fixing **logic errors** in C by **tracing execution step by step** w
 |---|---|
 | [Python Tutor — C](https://pythontutor.com/c.html) | Visualize execution: green arrow = line just executed, red arrow = next line to execute |
 | `gcc` | Final check: Python Tutor accepts newer C, the checker compiles with `-std=gnu89` |
+| [`multiplication_table.c`](./multiplication_table.c) | `print_table`: prints the multiplication table from `1` to `size` | Nested loops: `row` and `col` each run from `1` to `size`, printing `row * col` followed by a space, then `\n` after each row. **Bug fixed:** an extra `col++` inside the inner loop body incremented `col` twice per iteration, skipping every other column |
 
 ## ⚙️ Requirements
 
