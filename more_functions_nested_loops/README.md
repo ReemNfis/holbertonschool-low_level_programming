@@ -19,6 +19,7 @@ More practice writing **functions** and **nested loops** in C, printing with `_p
 | [`main.h`](./main.h) | Header file with all function prototypes | Header guard (`#ifndef MAIN_H`) + prototypes, included by every `.c` file with `#include "main.h"` |
 | [`0-isupper.c`](./0-isupper.c) | `_isupper`: checks for an uppercase character | Returns `1` if `c` is between `'A'` and `'Z'` (ASCII 65 to 90), `0` otherwise |
 | [`1-isdigit.c`](./1-isdigit.c) | `_isdigit`: checks for a digit (`0` through `9`) | Returns `1` if `c` is between `'0'` and `'9'` (ASCII 48 to 57), `0` otherwise |
+| [`2-mul.c`](./2-mul.c) | `mul`: multiplies two integers | Returns `a * b` directly; negative numbers work without any extra check |
 
 ## ⚙️ Requirements
 
