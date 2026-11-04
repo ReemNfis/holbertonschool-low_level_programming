@@ -26,6 +26,7 @@ More practice writing **functions** and **nested loops** in C, printing with `_p
 | [`6-print_line.c`](./6-print_line.c) | `print_line`: draws a straight line of `n` underscores, then a new line | A `while (i < n)` loop prints `_`; if `n <= 0` the loop never runs, so only `'\n'` is printed (no extra `if` needed) |
 | [`7-print_diagonal.c`](./7-print_diagonal.c) | `print_diagonal`: draws a diagonal line of `n` backslashes | Nested loops: line `i` prints `i` spaces, then `'\\'` and `'\n'`; if `n <= 0`, only `'\n'` is printed, checked before the loop |
 | [`8-print_square.c`](./8-print_square.c) | `print_square`: prints a square of `#`, then a new line | Nested loops: `size` lines of `size` `#` each, every line ending with `'\n'`; if `size <= 0`, only `'\n'` is printed |
+| [`9-fizz_buzz.c`](./9-fizz_buzz.c) | Program: prints `1` to `100`, with `Fizz` for multiples of 3, `Buzz` for multiples of 5, `FizzBuzz` for both | Checks `i % 3 == 0 && i % 5 == 0` first, then `% 5`, then `% 3`; a space follows every item except `100`; uses `printf` (standard library allowed in this task) |
 
 ## ⚙️ Requirements
 
