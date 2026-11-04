@@ -48,6 +48,7 @@ Finding and fixing **logic errors** in C by **tracing execution step by step** w
 | [Python Tutor — C](https://pythontutor.com/c.html) | Visualize execution: green arrow = line just executed, red arrow = next line to execute |
 | `gcc` | Final check: Python Tutor accepts newer C, the checker compiles with `-std=gnu89` |
 | [`multiplication_table.c`](./multiplication_table.c) | `print_table`: prints the multiplication table from `1` to `size` | Nested loops: `row` and `col` each run from `1` to `size`, printing `row * col` followed by a space, then `\n` after each row. **Bug fixed:** an extra `col++` inside the inner loop body incremented `col` twice per iteration, skipping every other column |
+| [`row_sums.c`](./row_sums.c) | `row_sum` / `total_sum`: sums every product `row * col` of a grid | `row_sum` returns the sum of one row; `total_sum` stores each row's result in `current` and adds it to `total` (`total_sum(3, 3)` → `36`). **Bug fixed:** `current` was accumulated with `+=` and then added to `total`, so each row was counted once for every row after it; `current` now holds only the current row (`=`) |
 
 ## ⚙️ Requirements
 
