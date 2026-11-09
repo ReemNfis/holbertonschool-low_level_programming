@@ -1,27 +1,30 @@
 #include "main.h"
 
 /**
- * puts_half - prints the second half of a string, followed by a new line
- * @s: pointer to the string
+ * rev_string - reverses a string
+ * @s: pointer to the string to reverse
  *
- * Return: Nothing.
+ * Return: void
  */
-void puts_half(char *s)
+void rev_string(char *s)
 {
 	int len = 0;
-    int n;
+	int i = 0;
+	int x;
+	char temp;
 
-    while (s[len] != '\0')
-    {
-        len++;
-    }
+	while (s[len] != '\0')
+	{
+		len++;
+	}
 
-    n = len - ((len + 1) / 2);
+	x = len / 2;
 
-    while (n < len)
-    {
-        _putchar(s[n]);
-        n++;
-    }
-	_putchar('\n');
+	while (i < x)
+	{
+		temp = s[i];
+		s[i] = s[len - 1 - i];
+		s[len - 1 - i] = temp;
+		i++;
+	}
 }
