@@ -15,6 +15,7 @@ Tasks on pointers, arrays and strings in C. Each task is one file, and all proto
 | `5-rev_string.c` | Reverses a string in place |
 | `6-puts2.c` | Prints every other character of a string, followed by a new line |
 | `7-puts_half.c` | Prints the second half of a string, followed by a new line |
+| `8-print_array.c` | Prints the elements of an array of integers, separated by a comma and a space |
 
 ## Compilation
 
