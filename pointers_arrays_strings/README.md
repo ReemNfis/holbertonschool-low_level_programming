@@ -17,12 +17,15 @@ Tasks on pointers, arrays and strings in C. Each task is one file, and all proto
 | `7-puts_half.c` | Prints the second half of a string, followed by a new line |
 | `8-print_array.c` | Prints the elements of an array of integers, separated by a comma and a space |
 | `9-strcpy.c` | Copies a string into a buffer, including the null terminator |
+| `100-atoi.c` | Converts a string to an integer, handling signs and ignoring leading characters |
 
 ## Compilation
 
 Compiled on Ubuntu 20.04 LTS with:
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o program
+
+Task 100 is also tested with `-fsanitize=signed-integer-overflow`.
 
 ## Author
 
