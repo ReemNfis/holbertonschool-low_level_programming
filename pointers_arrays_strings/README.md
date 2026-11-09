@@ -11,6 +11,7 @@ Tasks on pointers, arrays and strings in C. Each task is one file, and all proto
 | `1-swap.c` | Swaps the values of two integers using their pointers |
 | `2-strlen.c` | Returns the length of a string, without the null terminator |
 | `3-puts.c` | Prints a string followed by a new line, using `_putchar` |
+| `4-print_rev.c` | Prints a string in reverse, followed by a new line |
 
 ## Compilation
 
