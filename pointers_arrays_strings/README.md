@@ -1,31 +1,21 @@
-# Pointers, Arrays and Strings
+# pointers_arrays_strings
 
-Learning project about pointers, arrays, strings and scope in C.
+Tasks on pointers, arrays and strings in C. Each task is one file, and all prototypes are in `main.h`.
 
 ## Files
 
 | File | Description |
 |---|---|
-| `main.h` | Header file with the prototypes of all functions |
-| `0-reset_to_98.c` | Sets the `int` that `n` points to `98` |
+| `main.h` | Prototypes of all the functions of this project |
+| `0-reset_to_98.c` | Sets the integer that a pointer points to to 98 |
+| `1-swap.c` | Swaps the values of two integers using their pointers |
 
 ## Compilation
 
-All files are compiled on Ubuntu 20.04 LTS using:
+Compiled on Ubuntu 20.04 LTS with:
 
-```
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89
-```
-
-Example:
-
-```
-$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 0-main.c 0-reset_to_98.c -o 0-98
-$ ./0-98
-n=402
-n=98
-```
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o program
 
 ## Author
 
-Reem (GitHub: ReemNfis)
+Reem - GitHub: ReemNfis
