@@ -4,14 +4,9 @@
  * leet - encodes a string into 1337
  * @s: the string to encode (modified in place)
  *
- * Description: Replaces:
- *   a/A -> 4, e/E -> 3, o/O -> 0, t/T -> 7, l/L -> 1
- *
- * Constraints respected:
- *   - only one `if`
- *   - only two loops
- *   - no `switch`
- *   - no ternary operator
+ * Description: Replaces a/A -> 4, e/E -> 3, o/O -> 0, t/T -> 7,
+ * l/L -> 1 using a lookup table, with a single if, two loops,
+ * and no ternary operator.
  *
  * Return: pointer to the modified string s
  */
