@@ -7,7 +7,7 @@
  *
  * Description: Finds the first occurrence of the substring needle in
  * the string haystack. The terminating null bytes are not compared.
- * If needle is empty, returns haystack (matching standard strstr).
+ * If needle is empty, returns haystack.
  *
  * Return: pointer to the beginning of the located substring,
  *         or NULL if the substring is not found
