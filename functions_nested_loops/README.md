@@ -17,6 +17,7 @@ Writing **functions**, **nested loops**, and **header files** in C, printing wit
 | File | Description | How it works |
 |---|---|---|
 | [`main.h`](./main.h) | Header file with all function prototypes | Header guard (`#ifndef MAIN_H`) + prototypes, included by every `.c` file with `#include "main.h"` |
+| [`_putchar.c`](./_putchar.c) | `_putchar`: writes a single character to standard output | Calls `write(1, &c, 1)`; provided by the project and compiled with every task that prints |
 | [`0-putchar.c`](./0-putchar.c) | Prints `_putchar` followed by a new line | Calls `_putchar` once per character, then `_putchar('\n')` |
 | [`1-alphabet.c`](./1-alphabet.c) | `print_alphabet`: prints the lowercase alphabet, then a new line | A `char` goes from `'a'` to `'z'` in a `while` loop; `_putchar` is used only twice: one inside the loop, one for `'\n'` |
 | [`2-print_alphabet_x10.c`](./2-print_alphabet_x10.c) | `print_alphabet_x10`: prints the lowercase alphabet 10 times | Nested loops: the outer `int` counter runs 10 times; the inner `char` loop is reset to `'a'` each time and prints `'a'` to `'z'`, then `'\n'` |

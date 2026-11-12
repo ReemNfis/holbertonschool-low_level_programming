@@ -78,4 +78,4 @@ to the menu instead of terminating.
 
 ## Author
 
-Reem Alnafisah — [ReemNfis](https://github.com/ReemNfis)
+**Reem Alnufaisi** — [@ReemNfis](https://github.com/ReemNfis)

@@ -46,6 +46,7 @@ main.c → Preprocessor → Compiler → Assembler → Linker → a.out
 | `3-name` | Compiles a C file into an executable named **`cisfun`** | `gcc $CFILE -o cisfun` — runs all 4 stages; `-o` replaces the default name `a.out` |
 | `4-puts.c` | Prints a sentence using **`puts`** | `puts()` prints the string + adds `\n` automatically; `\"` prints a literal `"` |
 | `5-printf.c` | Prints a sentence using **`printf`** | `printf()` does **not** add a new line, so the string ends with `\n` |
+| `6-size.c` | Prints the **size in bytes** of several C types | `sizeof` gives each type's size; every value is cast to `unsigned long` and printed with `%lu` so the code stays warning-free under `-Wall -Werror -Wextra -pedantic` |
 
 ## ⚙️ Requirements
 

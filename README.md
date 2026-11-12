@@ -12,6 +12,9 @@ how code is compiled, how data lives in memory, and how programs run.
 | [`functions_nested_loops`](./functions_nested_loops) | C - Functions, nested loops | Functions, prototypes, header files, and nested loops |
 | [`intro_debugging`](./intro_debugging) | Debugging Visualization with Python Tutor | Tracing C code step by step to find and fix logic errors |
 | [`more_functions_nested_loops`](./more_functions_nested_loops) | C - More functions, more nested loops | More practice with functions, prototypes, and nested loops |
+| [`pointers_arrays_strings`](./pointers_arrays_strings) | C - Pointers, arrays and strings | Pointers, arrays, strings, and hand-written versions of standard string functions |
+| [`benchmarking`](./benchmarking) | Benchmarking and green efficiency | Measuring CPU time with `clock()` and comparing algorithmic cost |
+| [`simple-calculator`](./simple-calculator) | C - Simple Calculator | A complete menu-driven program: input handling, functions, and edge cases |
 
 ## ⚙️ Environment
 
