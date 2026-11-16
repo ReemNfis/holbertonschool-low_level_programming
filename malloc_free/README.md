@@ -8,6 +8,7 @@ Tasks on dynamic memory allocation in C, using `malloc` and `free`. Each task is
 |---|---|
 | `main.h` | Prototypes of all the functions of this project |
 | `0-create_array.c` | Creates an array of chars and initializes it with a specific char |
+| `1-strdup.c` | Returns a pointer to a newly allocated copy of a string |
 
 ## Compilation
 
