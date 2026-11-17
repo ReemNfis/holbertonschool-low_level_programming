@@ -19,6 +19,7 @@ with `exit`, and how `calloc` and `realloc` extend `malloc` and `free`.
 | `0-malloc_checked.c` | Task 0 - Trust no one | `malloc_checked` calls `malloc`; if it returns `NULL`, `exit(98)` ends the whole program, otherwise the pointer is returned |
 | `1-string_nconcat.c` | Task 1 - string_nconcat | `string_nconcat` allocates a new string with `s1` followed by the first `n` bytes of `s2` (all of `s2` if `n` is larger), null terminated; `NULL` inputs are treated as `""`; returns `NULL` if `malloc` fails |
 | `2-calloc.c` | Task 2 - _calloc | `_calloc` allocates `nmemb * size` bytes with `malloc` and sets every byte to `0`; returns `NULL` if `nmemb` or `size` is `0`, or if `malloc` fails |
+| `3-array_range.c` | Task 3 - array_range | `array_range` allocates an array of `int` holding every value from `min` to `max` (both included) in order; returns `NULL` if `min > max` or if `malloc` fails |
 
 ## Functions
 
