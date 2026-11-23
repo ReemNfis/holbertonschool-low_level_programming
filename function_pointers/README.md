@@ -18,11 +18,12 @@ Learning how to store the address of a function in a pointer and pass it to othe
 
 ## Files
 
-| File                                           | Description                                                       | How it works                                                                                           |
-| ---------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [`function_pointers.h`](./function_pointers.h) | Header file                                                       | Include guard, `stddef.h` and the prototypes of all the functions                                      |
-| [`0-print_name.c`](./0-print_name.c)           | `print_name`: prints a name using a given function                | Calls `f(name)`; does nothing if `name` or `f` is `NULL`                                               |
-| [`1-array_iterator.c`](./1-array_iterator.c)   | `array_iterator`: executes a function on each element of an array | Loops over the array and calls `action` on each element; does nothing if `array` or `action` is `NULL` |
+| File                                           | Description                                                       | How it works                                                                                                                                         |
+| ---------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`function_pointers.h`](./function_pointers.h) | Header file                                                       | Include guard, `stddef.h` and the prototypes of all the functions                                                                                    |
+| [`0-print_name.c`](./0-print_name.c)           | `print_name`: prints a name using a given function                | Calls `f(name)`; does nothing if `name` or `f` is `NULL`                                                                                             |
+| [`1-array_iterator.c`](./1-array_iterator.c)   | `array_iterator`: executes a function on each element of an array | Loops over the array and calls `action` on each element; does nothing if `array` or `action` is `NULL`                                               |
+| [`2-int_index.c`](./2-int_index.c)             | `int_index`: searches for an integer in an array                  | Returns the index of the first element for which `cmp` does not return `0`; returns `-1` if none matches, `size <= 0`, or `array` or `cmp` is `NULL` |
 
 ## Syntax
 
