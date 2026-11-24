@@ -24,6 +24,7 @@ How a C program receives the words typed on the command line, and how to compile
 | [`0-whatsmyname.c`](./0-whatsmyname.c) | Prints the name of the program | Prints `argv[0]` as typed, so a renamed program prints its new name; `argc` is marked unused |
 | [`1-args.c`](./1-args.c) | Prints the number of arguments passed to the program | Prints `argc - 1`, since `argc` also counts the program name; `argv` is marked unused |
 | [`2-args.c`](./2-args.c) | Prints all arguments it receives, one per line | Loops over `argv` from index `0` to `argc - 1`, so the program name is printed first |
+| [`3-mul.c`](./3-mul.c) | Multiplies two numbers and prints the result | Converts `argv[1]` and `argv[2]` with `atoi`; prints `Error` and returns `1` when `argc` is not `3` |
 
 ## Syntax
 
