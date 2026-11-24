@@ -22,6 +22,7 @@ How a C program receives the words typed on the command line, and how to compile
 |---|---|---|
 | [`main.h`](./main.h) | Header file | Include guard and the prototype of `_putchar` |
 | [`0-whatsmyname.c`](./0-whatsmyname.c) | Prints the name of the program | Prints `argv[0]` as typed, so a renamed program prints its new name; `argc` is marked unused |
+| [`1-args.c`](./1-args.c) | Prints the number of arguments passed to the program | Prints `argc - 1`, since `argc` also counts the program name; `argv` is marked unused |
 
 ## Syntax
 
